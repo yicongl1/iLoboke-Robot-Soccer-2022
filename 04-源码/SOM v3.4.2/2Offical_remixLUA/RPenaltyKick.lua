@@ -1,0 +1,37 @@
+kickerdir = function()
+	return CRole2BallDir("Kicker")
+end
+
+ReceiverDir = function()
+	return CRole2BallDir("Receiver")
+end
+
+gPlayTable.CreatePlay{
+firstState = "GotoPos",
+
+["GotoPos"] = {
+	switch = function ()
+		if CNormalStart() then
+			return "PenaltyKick"
+		end
+	end,
+	Kicker = task.GotoPos("Kicker",200,0,kickerdir),
+	Receiver = task.NormalDef("Receiver"),
+	Goalie = task.Goalie()
+},
+
+
+
+["PenaltyKick"] = {
+	switch = function()
+		if CIsBallKick("Kicker")then
+			return "finish"
+		end
+	end,
+	Kicker   = task.PenaltyKick("Kicker"),
+	Receiver = task.NormalDef("Receiver"),
+	Goalie   = task.Goalie()
+},
+
+name = "RPenaltyKick"
+}

@@ -1,0 +1,127 @@
+# ---- 系统垃圾 ----
+.DS_Store
+._*
+Thumbs.db
+desktop.ini
+
+# ---- 第三方软件运行时（北京启创远景科技 SOM 3.4.2，不随仓库分发）----
+/04-源码/SOM v3.4.2/*
+# 只保留我们自己写的脚本与技能 DLL
+!/04-源码/SOM v3.4.2/1lua0726/
+!/04-源码/SOM v3.4.2/2Offical_remixLUA/
+!/04-源码/SOM v3.4.2/3His_Lua/
+!/04-源码/SOM v3.4.2/4DIYdll_LUA/
+!/04-源码/SOM v3.4.2/5lua_3/
+!/04-源码/SOM v3.4.2/6P_LUA/
+!/04-源码/SOM v3.4.2/7K_LUA/
+!/04-源码/SOM v3.4.2/Team/
+/04-源码/SOM v3.4.2/Team/*
+!/04-源码/SOM v3.4.2/Team/lua_scripts/
+!/04-源码/SOM v3.4.2/Team/user_skills/
+
+# ---- 压缩包：通过 Release 附件分发，不进 git ----
+/04-源码/_原始压缩包-10-25-1-12-SHUXYY.zip
+/01-预选赛-2022-09-18/比赛压缩包-9-18-2-1.rar
+/02-决赛-2022-10-25/比赛压缩包-10-25-1-12.zip
+
+# ---- SOM 官方原件（2017–2021，版权归北京启创远景科技，不发布）----
+# 规则：05-12 项目启动之前修改时间的文件即官方原件；之后的是我们自己写的/改的，正常发布。
+# 以下 98 个文件为此规则自动生成，恢复全量私库时删掉本段即可。
+/04-源码/SOM v3.4.2/Team/lua_scripts/Play.lua
+/04-源码/SOM v3.4.2/Team/lua_scripts/PlayBot.lua
+/04-源码/SOM v3.4.2/Team/lua_scripts/SelectPlay.lua
+/04-源码/SOM v3.4.2/Team/lua_scripts/Skill.lua
+/04-源码/SOM v3.4.2/Team/lua_scripts/StartPlayBot_blue.lua
+/04-源码/SOM v3.4.2/Team/lua_scripts/StartPlayBot_yellow.lua
+/04-源码/SOM v3.4.2/Team/lua_scripts/json.lua
+/04-源码/SOM v3.4.2/Team/lua_scripts/linter.lua
+/04-源码/SOM v3.4.2/Team/lua_scripts/opponent/NO4.lua
+/04-源码/SOM v3.4.2/Team/lua_scripts/opponent/Number1.lua
+/04-源码/SOM v3.4.2/Team/lua_scripts/opponent/Number2.lua
+/04-源码/SOM v3.4.2/Team/lua_scripts/opponent/Number5.lua
+/04-源码/SOM v3.4.2/Team/lua_scripts/play/Package/BackDef/BackKick_3v3.lua
+/04-源码/SOM v3.4.2/Team/lua_scripts/play/Package/BackDef/Ref_BackDef.lua
+/04-源码/SOM v3.4.2/Team/lua_scripts/play/Package/BackDef/Ref_BackKick.lua
+/04-源码/SOM v3.4.2/Team/lua_scripts/play/Package/BackDef/Ref_CornerKick.lua
+/04-源码/SOM v3.4.2/Team/lua_scripts/play/Package/BackDef/Ref_FrontKick.lua
+/04-源码/SOM v3.4.2/Team/lua_scripts/play/Package/BackDef/Ref_FrontKick_3v3.lua
+/04-源码/SOM v3.4.2/Team/lua_scripts/play/Package/BackKick/Ref_BackKick_Demo1.lua
+/04-源码/SOM v3.4.2/Team/lua_scripts/play/Package/BackKick/Ref_BackKick_Demo3.lua
+/04-源码/SOM v3.4.2/Team/lua_scripts/play/Package/BackKick/Ref_BackKick_Demo4.lua
+/04-源码/SOM v3.4.2/Team/lua_scripts/play/Package/CornerDef/Ref_CornerDef.lua
+/04-源码/SOM v3.4.2/Team/lua_scripts/play/Package/CornerKick/Ref_FrontKick.lua
+/04-源码/SOM v3.4.2/Team/lua_scripts/play/Package/CornerKick/Ref_MiddleKick.lua
+/04-源码/SOM v3.4.2/Team/lua_scripts/play/Package/FrontDef/Ref_FrontDef.lua
+/04-源码/SOM v3.4.2/Team/lua_scripts/play/Package/GameStop/Ref_Stop.lua
+/04-源码/SOM v3.4.2/Team/lua_scripts/play/Package/KickOff/Ref_KickOff.lua
+/04-源码/SOM v3.4.2/Team/lua_scripts/play/Package/KickOff/Ref_MiddleKick.lua
+/04-源码/SOM v3.4.2/Team/lua_scripts/play/Package/KickOffDef/Ref_KickOffDef.lua
+/04-源码/SOM v3.4.2/Team/lua_scripts/play/Package/MiddleDef/Ref_MiddleDef.lua
+/04-源码/SOM v3.4.2/Team/lua_scripts/play/Package/NormalPlay/NormalPlayDefend.lua
+/04-源码/SOM v3.4.2/Team/lua_scripts/play/Package/Others/Ref_MiddleKick.lua
+/04-源码/SOM v3.4.2/Team/lua_scripts/play/Package/PenaltyDef/Ref_PenaltyDef.lua
+/04-源码/SOM v3.4.2/Team/lua_scripts/play/Package/PlaceBall/Ref_PlaceBall.lua
+/04-源码/SOM v3.4.2/Team/lua_scripts/play/Package/PlaceBall/Ref_PlaceBall_Demo1.lua
+/04-源码/SOM v3.4.2/Team/lua_scripts/play/Package/PlaceBall/TestPlaceBall.lua
+/04-源码/SOM v3.4.2/Team/lua_scripts/play/Package/PlaceBallDef/Ref_PlaceBallDef.lua
+/04-源码/SOM v3.4.2/Team/lua_scripts/play/Package/PlaceBallDef/Ref_PlaceBallDef_Demo1.lua
+/04-源码/SOM v3.4.2/Team/lua_scripts/play/Package/Ref_Halt.lua
+/04-源码/SOM v3.4.2/Team/lua_scripts/play/Ref/Def/BackDef.lua
+/04-源码/SOM v3.4.2/Team/lua_scripts/play/Ref/Def/CornerDef.lua
+/04-源码/SOM v3.4.2/Team/lua_scripts/play/Ref/Def/FrontDef.lua
+/04-源码/SOM v3.4.2/Team/lua_scripts/play/Ref/Def/MiddleDef.lua
+/04-源码/SOM v3.4.2/Team/lua_scripts/play/Ref/Kick/BackKick.lua
+/04-源码/SOM v3.4.2/Team/lua_scripts/play/Ref/Kick/CornerKick.lua
+/04-源码/SOM v3.4.2/Team/lua_scripts/play/Ref/Kick/FrontKick.lua
+/04-源码/SOM v3.4.2/Team/lua_scripts/play/Ref/Kick/MiddleKick.lua
+/04-源码/SOM v3.4.2/Team/lua_scripts/play/Ref/gameHalt.lua
+/04-源码/SOM v3.4.2/Team/lua_scripts/play/Ref/gameOver.lua
+/04-源码/SOM v3.4.2/Team/lua_scripts/play/Ref/gameStop.lua
+/04-源码/SOM v3.4.2/Team/lua_scripts/play/Ref/ourIndirectKick.lua
+/04-源码/SOM v3.4.2/Team/lua_scripts/play/Ref/ourKickOff.lua
+/04-源码/SOM v3.4.2/Team/lua_scripts/play/Ref/ourPenaltyKick.lua
+/04-源码/SOM v3.4.2/Team/lua_scripts/play/Ref/ourPlaceBall.lua
+/04-源码/SOM v3.4.2/Team/lua_scripts/play/Ref/ourTimeout.lua
+/04-源码/SOM v3.4.2/Team/lua_scripts/play/Ref/theirIndirectKick.lua
+/04-源码/SOM v3.4.2/Team/lua_scripts/play/Ref/theirKickOff.lua
+/04-源码/SOM v3.4.2/Team/lua_scripts/play/Ref/theirPenaltyKick.lua
+/04-源码/SOM v3.4.2/Team/lua_scripts/play/Ref/theirPlaceBall.lua
+/04-源码/SOM v3.4.2/Team/lua_scripts/play/Test/BackDef/BackKick_3v3.lua
+/04-源码/SOM v3.4.2/Team/lua_scripts/play/Test/BackDef/Ref_BackKick.lua
+/04-源码/SOM v3.4.2/Team/lua_scripts/play/Test/BackDef/Ref_BackKick_Demo1.lua
+/04-源码/SOM v3.4.2/Team/lua_scripts/play/Test/BackDef/Ref_CornerKick.lua
+/04-源码/SOM v3.4.2/Team/lua_scripts/play/Test/BackDef/Ref_FrontKick.lua
+/04-源码/SOM v3.4.2/Team/lua_scripts/play/Test/BackDef/Ref_FrontKick_3v3.lua
+/04-源码/SOM v3.4.2/Team/lua_scripts/play/Test/BackDef/Ref_MiddleKick.lua
+/04-源码/SOM v3.4.2/Team/lua_scripts/play/Test/CornerKick/Ref_FrontKick.lua
+/04-源码/SOM v3.4.2/Team/lua_scripts/play/Test/CornerKick/Ref_MiddleKick.lua
+/04-源码/SOM v3.4.2/Team/lua_scripts/play/Test/KickOff/Ref_MiddleKick.lua
+/04-源码/SOM v3.4.2/Team/lua_scripts/play/Test/Others/BackKick_3v3.lua
+/04-源码/SOM v3.4.2/Team/lua_scripts/play/Test/Others/Ref_MiddleKick.lua
+/04-源码/SOM v3.4.2/Team/lua_scripts/play/Test/PlaceBall/Ref_PlaceBall.lua
+/04-源码/SOM v3.4.2/Team/lua_scripts/play/Test/PlaceBall/TestPlaceBall.lua
+/04-源码/SOM v3.4.2/Team/lua_scripts/skill/DefenderSkill.lua
+/04-源码/SOM v3.4.2/Team/lua_scripts/skill/GoalieSkill.lua
+/04-源码/SOM v3.4.2/Team/lua_scripts/skill/KickerSkill.lua
+/04-源码/SOM v3.4.2/Team/lua_scripts/skill/MiddleSkill.lua
+/04-源码/SOM v3.4.2/Team/lua_scripts/skill/PlayBotSkill/getball.lua
+/04-源码/SOM v3.4.2/Team/lua_scripts/skill/PlayBotSkill/getoppnums.lua
+/04-源码/SOM v3.4.2/Team/lua_scripts/skill/PlayBotSkill/getplacex.lua
+/04-源码/SOM v3.4.2/Team/lua_scripts/skill/PlayBotSkill/getplacey.lua
+/04-源码/SOM v3.4.2/Team/lua_scripts/skill/PlayBotSkill/goalie.lua
+/04-源码/SOM v3.4.2/Team/lua_scripts/skill/PlayBotSkill/goreceivepos.lua
+/04-源码/SOM v3.4.2/Team/lua_scripts/skill/PlayBotSkill/gotopos.lua
+/04-源码/SOM v3.4.2/Team/lua_scripts/skill/PlayBotSkill/halt.lua
+/04-源码/SOM v3.4.2/Team/lua_scripts/skill/PlayBotSkill/normaldef.lua
+/04-源码/SOM v3.4.2/Team/lua_scripts/skill/PlayBotSkill/passball.lua
+/04-源码/SOM v3.4.2/Team/lua_scripts/skill/PlayBotSkill/penaltydef.lua
+/04-源码/SOM v3.4.2/Team/lua_scripts/skill/PlayBotSkill/penaltykick.lua
+/04-源码/SOM v3.4.2/Team/lua_scripts/skill/PlayBotSkill/receiveball.lua
+/04-源码/SOM v3.4.2/Team/lua_scripts/skill/PlayBotSkill/refdef.lua
+/04-源码/SOM v3.4.2/Team/lua_scripts/skill/PlayBotSkill/shoot.lua
+/04-源码/SOM v3.4.2/Team/lua_scripts/skill/PlayBotSkill/stop.lua
+/04-源码/SOM v3.4.2/Team/lua_scripts/skill/ReceiverSkill.lua
+/04-源码/SOM v3.4.2/Team/lua_scripts/skill/TierSkill.lua
+/04-源码/SOM v3.4.2/Team/user_skills/leave.dll
+/04-源码/SOM v3.4.2/Team/user_skills/placeBall.dll
+/04-源码/SOM v3.4.2/Team/user_skills/receiveBall.dll

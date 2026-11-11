@@ -1,0 +1,3 @@
+Goalie   1
+Kicker   3
+Receiver   5
